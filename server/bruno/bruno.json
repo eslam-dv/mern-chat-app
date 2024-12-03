@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "chatapp-bruno",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

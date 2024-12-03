@@ -1,0 +1,15 @@
+meta {
+  name: getProfile
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:3000/api/v1/user/profile
+  body: none
+  auth: none
+}
+
+headers {
+  Cookie: jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzRlZjM0N2NkYzQwOTc3NjBmZmQ2YWMiLCJpYXQiOjE3MzMyMzYwMTIsImV4cCI6MTczMzMyMjQxMn0.zIlSRh7EmDc69gN4v5wcsUbChEBHYdOIyfsZvZtJIdQ; Max-Age=86400; Path=/; Expires=Wed, 04 Dec 2024 14:26:52 GMT; HttpOnly; Secure; SameSite=Strict
+}
